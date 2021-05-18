@@ -1,0 +1,24 @@
+{
+  "database": "testdatabase",
+  "tables": {
+    "customers": {
+      "all": true,
+      "query": [
+
+      ],
+      "clause": {
+
+      }
+    },
+    "employees": {
+      "all": false,
+      "query": [
+        "first_name",
+        "last_name"
+      ],
+      "clause": {
+        "customer_id": 1
+      }
+    }
+  }
+}
